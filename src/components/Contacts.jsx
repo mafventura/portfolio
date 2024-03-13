@@ -5,12 +5,13 @@ export default function Contacts() {
                 <h3 class="text-orange">.</h3>
                 <h3>contacts</h3>
             </div>
-            <h6>junior web developer | london</h6>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid non optio placeat
-                fugiat laborum doloribus ipsa doloremque delectus suscipit ab quaerat praesentium
-                corporis debitis, assumenda, facilis maiores qui omnis iste.
-            </p>
+            <div class="flex-column items-center">
+                <button>mafalda.ventura@live.com.pt</button>
+                <div class="flex ">
+                    <img class="h-9" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="github"/>
+                    <img class="h-9" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" alt="linkedin"/>
+                </div>
+            </div>
         </div>
     );
 }
