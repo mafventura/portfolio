@@ -158,7 +158,7 @@ export default function Projects() {
                                 Project 2 follows a MEVN structure with MongoDB, Express, Vue and
                                 Node. It's a web application where you can add your board games to
                                 your library, add your friends and family as players, and log and
-                                keep track of scoring through out your various plays!
+                                keep track of scoring through out your various plays.
                             </Typography>
                             <div class="flex">
                                 <a
