@@ -16,7 +16,7 @@ export default function Projects() {
                 <h3>projects</h3>
             </div>
 
-            <div>
+            <div class="flex flex-col">
                 <Carousel
                     className="rounded-xl w-full"
                     prevArrow={({ handlePrev }) => (
@@ -25,14 +25,14 @@ export default function Projects() {
                             color="black"
                             size="lg"
                             onClick={handlePrev}
-                            className="!absolute top-2/4 left-4 -translate-y-2/4"
+                            className="!absolute top-80 lg:top-2/4 left-4 -translate-y-2/4"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 strokeWidth={2}
-                                stroke="currentColor"
+                                stroke="orange"
                                 className="h-6 w-6"
                             >
                                 <path
@@ -49,14 +49,14 @@ export default function Projects() {
                             color="black"
                             size="lg"
                             onClick={handleNext}
-                            className="!absolute top-2/4 !right-4 -translate-y-2/4"
+                            className="!absolute top-80 lg:top-2/4 !right-4 -translate-y-2/4"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 strokeWidth={2}
-                                stroke="currentColor"
+                                stroke="orange"
                                 className="h-6 w-6"
                             >
                                 <path
@@ -68,20 +68,27 @@ export default function Projects() {
                         </IconButton>
                     )}
                 >
-                    <Card className="w-full flex-row">
+                    <Card className="w-full">
                         <CardHeader
                             shadow={false}
                             floated={false}
-                            className="m-0 w-2/5 shrink-0 rounded-r-none"
+                            className="m-0 shrink-0 rounded-r-none h-80"
                         >
+                            {/* Small screen image */}
                             <img
                                 src="https://i.imgur.com/sL2OuFB.png"
                                 alt="Project 1 - Space Invaders"
-                                className="h-full w-full object-cover"
+                                className="w-full object-cover"
+                            />
+                            {/* Large screen image */}
+                            <img
+                                src="https://i.imgur.com/Kz5gA7O.png"
+                                alt="Project 1 - Space Invaders"
+                                className="w-full object-cover hidden lg:block"
                             />
                         </CardHeader>
                         <CardBody>
-                            <Typography variant="h4" color="blue-gray" className="mb-2">
+                            <Typography variant="h4" color="blue-gray" className="mb-2 lg:mt-5">
                                 Space Invaders (Project 1, GA)
                             </Typography>
                             <Typography color="gray" className="mb-8 font-normal">
@@ -138,20 +145,27 @@ export default function Projects() {
                             </div>
                         </CardBody>
                     </Card>
-                    <Card className="w-full flex-row">
+                    <Card className="w-full">
                         <CardHeader
                             shadow={false}
                             floated={false}
-                            className="m-0 w-2/5 shrink-0 rounded-r-none"
+                            className="m-0 shrink-0 rounded-r-none lg:h-80"
                         >
+                            {/* Small screen image */}
                             <img
                                 src="https://i.imgur.com/MxiTKm7.png"
                                 alt="Project 2 - PlayPal"
-                                className="h-full w-full object-cover"
+                                className="w-full object-cover"
+                            />
+                            {/* Large screen image */}
+                            <img
+                                src="https://i.imgur.com/QFGMCPF.png"
+                                alt="Project 2 - PlayPal"
+                                className="w-full object-cover hidden lg:block"
                             />
                         </CardHeader>
                         <CardBody>
-                            <Typography variant="h4" color="blue-gray" className="mb-2">
+                            <Typography variant="h4" color="blue-gray" className="mb-2 mt-12">
                                 PlayPal (Project 2, GA)
                             </Typography>
                             <Typography color="gray" className="mb-8 font-normal">
@@ -208,20 +222,27 @@ export default function Projects() {
                             </div>
                         </CardBody>
                     </Card>
-                    <Card className="w-full flex-row">
+                    <Card className="w-full">
                         <CardHeader
                             shadow={false}
                             floated={false}
-                            className="m-0 w-2/5 shrink-0 rounded-r-none"
+                            className="m-0 h-80 shrink-0 rounded-r-none"
                         >
+                            {/* Small screen image */}
                             <img
                                 src="https://i.imgur.com/HJvMGr4.png"
                                 alt="Project 3 - Journée"
-                                className="h-full w-full object-cover"
+                                className="w-full object-cover"
+                            />
+                            {/* Large screen image */}
+                            <img
+                                src="https://i.imgur.com/URsA1Bu.png"
+                                alt="Project 3 - Journée"
+                                className="w-full object-cover hidden lg:block"
                             />
                         </CardHeader>
                         <CardBody>
-                            <Typography variant="h4" color="blue-gray" className="mb-2">
+                            <Typography variant="h4" color="blue-gray" className="mb-2 lg:mt-5">
                                 Journée (Project 3, GA)
                             </Typography>
                             <Typography color="gray" className="mb-8 font-normal">
@@ -275,27 +296,32 @@ export default function Projects() {
                             </div>
                         </CardBody>
                     </Card>
-                    <Card className="w-full flex-row">
+                    <Card className="w-full">
                         <CardHeader
                             shadow={false}
                             floated={false}
-                            className="m-0 w-2/5 shrink-0 rounded-r-none"
+                            className="m-0 h-80 shrink-0 rounded-r-none"
                         >
+                            {/* Small screen image */}
                             <img
                                 src="https://i.imgur.com/tgJwrTC.png"
                                 alt="Project 4 - Happy Campers"
-                                className="h-full w-full object-cover"
+                                className="w-full object-cover"
+                            />
+                            {/* Large screen image */}
+                            <img
+                                src="https://i.imgur.com/psOk5Ir.png"
+                                alt="Project 4 - Happy Campers"
+                                className="w-full object-cover hidden lg:block"
                             />
                         </CardHeader>
                         <CardBody>
-                            <Typography variant="h4" color="blue-gray" className="mb-2">
+                            <Typography variant="h4" color="blue-gray" className="mb-2 lg:mt-5">
                                 Happy Campers (Project 4, GA)
                             </Typography>
                             <Typography color="gray" className="mb-8 font-normal">
                                 This was a project with a Django/Pyhton backend, SQL database and
-                                REACT frontend. For this project, I decided to create a tool that
-                                was based on something that would’ve been useful as a tool for my
-                                previous job. It is a web application where parents can register
+                                REACT frontend. It is a web application where parents can register
                                 their kids for the available Holiday Camps, and Staff members can
                                 see these registrations and information about the kids.
                             </Typography>
