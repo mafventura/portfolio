@@ -14,6 +14,7 @@ export default function Experience() {
                 <div class="container flex-column">
                     <h5 class="text-bold">General Assembly</h5>
                     <h6>Software Engineering Immersive</h6>
+                    <h6 class='italic text-sm mb-3'>November 2023 - March 2024</h6>
                     <p>
                         This course was held for 12 weeks and involved morning standups then
                         proceeding with the classes which could vary from lectures, exercise labs
@@ -28,6 +29,7 @@ export default function Experience() {
                 <div class="container flex-column">
                     <h5 class="text-bold">Quinta da Bicuda</h5>
                     <h6>Business Operation</h6>
+                    <h6 class='italic text-sm mb-3'>September 2017 - September 2023</h6>
                     <p>
                         - Developed marketing materials for events
                         <br />
@@ -54,6 +56,7 @@ export default function Experience() {
                 <div class="container flex-column">
                     <h5 class="text-bold">Lisbon School of Economics and Management</h5>
                     <h6>BSc (Hons) Management</h6>
+                    <h6 class='italic text-sm mb-3'>2012 - 2017</h6>
                     <p>
                         - Graduated in Management Bachelor’s degree including modules such as
                         Statistics, Marketing, Maths, Economics, Accounting, and Finance.
