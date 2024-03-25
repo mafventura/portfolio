@@ -16,67 +16,103 @@ export default function About() {
                 Engineering marks a pivotal moment as I embark on a transition into this dynamic
                 field, fueled by a passion for innovation and problem-solving.
             </p>
-            <div class="flex justify-between">
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
-                    alt="html"
-                    class="h-12 mr-2"
-                />
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
-                    alt="css"
-                    class="h-12 mr-2"
-                />
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                    alt="JavaScript"
-                    class="h-12 mr-2"
-                />
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
-                    alt="React"
-                    class="h-12 mr-2"
-                />
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
-                    alt="Node"
-                    class="h-12 mr-2"
-                />
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
-                    alt="Express"
-                    class="h-12 mr-2"
-                />
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
-                    alt="Mongo"
-                    class="h-12 mr-2"
-                />
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-                    alt="Python"
-                    class="h-12 mr-2"
-                />
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg"
-                    alt="Django"
-                    class="h-12 mr-2"
-                />
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/djangorest/djangorest-original.svg"
-                    alt="DjangoRest"
-                    class="h-12 mr-2"
-                />
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
-                    alt="PostgreSQL"
-                    class="h-12 mr-2"
-                />
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
-                    alt="Bootstrap"
-                    class="h-12 mr-2"
-                />
+            <div class="flex flex-wrap justify-center">
+                <div class="flex flex-col items-center mb-4 mr-4">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+                        alt="html"
+                        class="h-12"
+                    />
+                    <p class="text-xs mt-2 text-blue">HTML</p>
+                </div>
+                <div class="flex flex-col items-center mb-4 mr-4">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+                        alt="css"
+                        class="h-12 "
+                    />
+                    <p class="text-xs mt-2 text-blue">CSS</p>
+                </div>
+                <div class="flex flex-col items-center mb-4 mr-4">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                        alt="JavaScript"
+                        class="h-12 "
+                    />
+                    <p class="text-xs mt-2 text-blue">JavaScript</p>
+                </div>
+                <div class="flex flex-col items-center mb-4 mr-4">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                        alt="React"
+                        class="h-12 "
+                    />
+                    <p class="text-xs mt-2 text-blue">React</p>
+                </div>
+                <div class="flex flex-col items-center mb-4 mr-4">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+                        alt="Node"
+                        class="h-12 "
+                    />
+                    <p class="text-xs mt-2 text-blue">Node.js</p>
+                </div>
+                <div class="flex flex-col items-center mb-4 mr-4">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+                        alt="Express"
+                        class="h-12 "
+                    />
+                    <p class="text-xs mt-2 text-blue">Express.js</p>
+                </div>
+                <div class="flex flex-col items-center mb-4 mr-4">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+                        alt="Mongo"
+                        class="h-12 "
+                    />
+                    <p class="text-xs mt-2 text-blue">MongoDB</p>
+                </div>
+                <div class="flex flex-col items-center mb-4 mr-4">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                        alt="Python"
+                        class="h-12 "
+                    />
+                    <p class="text-xs mt-2 text-blue">Python</p>
+                </div>
+                <div class="flex flex-col items-center mb-4 mr-4">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg"
+                        alt="Django"
+                        class="h-12"
+                    />
+                    <p class="text-xs mt-2 text-blue">Django</p>
+                </div>
+                <div class="flex flex-col items-center mb-4 mr-4">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/djangorest/djangorest-original.svg"
+                        alt="DjangoRest"
+                        class="h-12"
+                    />
+                    <p class="text-xs mt-2 text-blue">Django REST</p>
+                </div>
+                <div class="flex flex-col items-center mb-4 mr-4">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+                        alt="PostgreSQL"
+                        class="h-12"
+                    />
+                    <p class="text-xs mt-2 text-blue">PostgreSQL</p>
+                </div>
+                <div class="flex flex-col items-center mb-4 mr-4">
+                    <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+                        alt="Bootstrap"
+                        class="h-12"
+                    />
+                    <p class="text-xs mt-2 text-blue">Bootstrap</p>
+                </div>
             </div>
         </div>
     );
