@@ -98,8 +98,10 @@ export default function Projects() {
                                 to styling since I think it could make or break a project.
                             </Typography>
                             <div class="flex">
+                                {/* eslint-disable-next-line */}
                                 <a
                                     href="https://mafventura.github.io/Unit1_Project_Space_Invaders/"
+                                    target="_blank"
                                     className="inline-block"
                                 >
                                     <Button variant="text" className="flex items-center gap-2">
@@ -120,8 +122,10 @@ export default function Projects() {
                                         </svg>
                                     </Button>
                                 </a>
+                                {/* eslint-disable-next-line */}
                                 <a
                                     href="https://github.com/mafventura/Unit1_Project_Space_Invaders?tab=readme-ov-file"
+                                    target="_blank"
                                     className="inline-block"
                                 >
                                     <Button variant="text" className="flex items-center gap-2">
@@ -175,8 +179,10 @@ export default function Projects() {
                                 keep track of scoring through out your various plays.
                             </Typography>
                             <div class="flex">
+                                {/* eslint-disable-next-line */}
                                 <a
                                     href="https://playpal-mevn-frontend.netlify.app/"
+                                    target="_blank"
                                     className="inline-block"
                                 >
                                     <Button variant="text" className="flex items-center gap-2">
@@ -197,8 +203,10 @@ export default function Projects() {
                                         </svg>
                                     </Button>
                                 </a>
+                                {/* eslint-disable-next-line */}
                                 <a
                                     href="https://github.com/mafventura/PlayPal_frontend_Unit2_Project"
+                                    target="_blank"
                                     className="inline-block"
                                 >
                                     <Button variant="text" className="flex items-center gap-2">
@@ -252,7 +260,12 @@ export default function Projects() {
                                 To-do’s List and Schedule events.
                             </Typography>
                             <div class="flex">
-                                <a href="https://journee.site/" className="inline-block">
+                                {/* eslint-disable-next-line */}
+                                <a
+                                    href="https://journee.site/"
+                                    target="_blank"
+                                    className="inline-block"
+                                >
                                     <Button variant="text" className="flex items-center gap-2">
                                         Deployment
                                         <svg
@@ -271,8 +284,10 @@ export default function Projects() {
                                         </svg>
                                     </Button>
                                 </a>
+                                {/* eslint-disable-next-line */}
                                 <a
                                     href="https://github.com/mafventura/unit3project-frontend?tab=readme-ov-file"
+                                    target="_blank"
                                     className="inline-block"
                                 >
                                     <Button variant="text" className="flex items-center gap-2">
@@ -326,8 +341,10 @@ export default function Projects() {
                                 see these registrations and information about the kids.
                             </Typography>
                             <div class="flex">
+                                {/* eslint-disable-next-line */}
                                 <a
                                     href="https://happy-campers.netlify.app/"
+                                    target="_blank"
                                     className="inline-block"
                                 >
                                     <Button variant="text" className="flex items-center gap-2">
@@ -348,8 +365,10 @@ export default function Projects() {
                                         </svg>
                                     </Button>
                                 </a>
+                                {/* eslint-disable-next-line */}
                                 <a
                                     href="https://github.com/mafventura/happycampers-frontend?tab=readme-ov-file"
+                                    target="_blank"
                                     className="inline-block"
                                 >
                                     <Button variant="text" className="flex items-center gap-2">
