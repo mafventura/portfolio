@@ -149,7 +149,7 @@ export default function Projects() {
                         <CardHeader
                             shadow={false}
                             floated={false}
-                            className="m-0 shrink-0 rounded-r-none lg:h-80"
+                            className="m-0 shrink-0 rounded-r-none h-80"
                         >
                             {/* Small screen image */}
                             <img
@@ -165,7 +165,7 @@ export default function Projects() {
                             />
                         </CardHeader>
                         <CardBody>
-                            <Typography variant="h4" color="blue-gray" className="mb-2 mt-12">
+                            <Typography variant="h4" color="blue-gray" className="mb-2 lg:mt-5">
                                 PlayPal (Project 2, GA)
                             </Typography>
                             <Typography color="gray" className="mb-8 font-normal">
