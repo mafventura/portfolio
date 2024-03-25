@@ -19,7 +19,7 @@ export default function Contacts() {
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
                         alt="github"
                     />{" "}
-                    /in/mafaldacventura/
+                    github.com/mafventura
                 </a>
                 {/* eslint-disable-next-line */}
                 <a href="https://www.linkedin.com/in/mafaldacventura/" target="_blank" class="flex items-center mb-4 hover:text-orange active:text-blue">
@@ -28,7 +28,7 @@ export default function Contacts() {
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
                         alt="linkedin"
                     />
-                    github.com/mafventura
+                    /in/mafaldacventura/
                 </a>
             </div>
         </div>
