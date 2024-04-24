@@ -68,7 +68,7 @@ export default function Projects() {
                         </IconButton>
                     )}
                 >
-                    <Card className="w-full">
+                    <Card className="w-full lg:p-28 md:p-28">
                         <CardHeader
                             shadow={false}
                             floated={false}
@@ -129,7 +129,7 @@ export default function Projects() {
                                     className="inline-block"
                                 >
                                     <Button variant="text" className="flex items-center gap-2">
-                                        GitHub
+                                        Read Me
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             fill="none"
@@ -149,7 +149,7 @@ export default function Projects() {
                             </div>
                         </CardBody>
                     </Card>
-                    <Card className="w-full">
+                    <Card className="w-full lg:p-28 md:p-28">
                         <CardHeader
                             shadow={false}
                             floated={false}
@@ -210,7 +210,7 @@ export default function Projects() {
                                     className="inline-block"
                                 >
                                     <Button variant="text" className="flex items-center gap-2">
-                                        GitHub
+                                        Read Me
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             fill="none"
@@ -230,7 +230,7 @@ export default function Projects() {
                             </div>
                         </CardBody>
                     </Card>
-                    <Card className="w-full">
+                    <Card className="w-full lg:p-28 md:p-28">
                         <CardHeader
                             shadow={false}
                             floated={false}
@@ -291,7 +291,7 @@ export default function Projects() {
                                     className="inline-block"
                                 >
                                     <Button variant="text" className="flex items-center gap-2">
-                                        GitHub
+                                        Read Me
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             fill="none"
@@ -311,7 +311,7 @@ export default function Projects() {
                             </div>
                         </CardBody>
                     </Card>
-                    <Card className="w-full">
+                    <Card className="w-full p-28 md:p-28">
                         <CardHeader
                             shadow={false}
                             floated={false}
@@ -372,7 +372,7 @@ export default function Projects() {
                                     className="inline-block"
                                 >
                                     <Button variant="text" className="flex items-center gap-2">
-                                        GitHub
+                                        Read Me
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             fill="none"
